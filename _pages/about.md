@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /about/
 # nav: true
-# nav_order: 1
+# nav_ordergi: 1
 subtitle: *(PRUH-NUH-thee MOH-du-MOO-dee)*
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
