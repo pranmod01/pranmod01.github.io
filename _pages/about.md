@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 nav: true
 nav_order: 1
 subtitle: *(PRUH-NUH-thee MOH-du-MOO-dee)*
