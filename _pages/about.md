@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: (PRUH-NUH-thee MOH-du-MOO-dee)
+subtitle: *(PRUH-NUH-thee MOH-du-MOO-dee)*
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
