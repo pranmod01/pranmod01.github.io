@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: RUH-NUH-thee MOH-du-MOO-dee
+subtitle: "*PRUH-NUH-thee MOH-du-MOO-dee*"
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
@@ -30,8 +30,6 @@ latest_posts:
 
 Hi! I'm Pranati Modumudi, a first-year Master's student in Computer Science at Columbia University, specializing in the Machine Learning and Neuroscience track. I completed my undergraduate studies at UC Berkeley, where I studied Data Science (with an emphasis in Sociology) and Economics and was a recipient of the [Regents' and Chancellor's Scholarship at Cal](https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/). 
 
-Previously, I was a Data Scientist at Disney Streaming, where I worked on the Retention and Engagement Modeling Inference (REMI) team. There, I focused on causal inference and time series forecasting to understand customer behavior and how different business initiatives might drive causal changes in their engagement with the platform.
-
-I’m driven by a deep curiosity about intelligence — both natural and artificial — and how insights from each domain can elevate and inform the other. My passion lies in building ethical, responsible, and inclusive AI systems that are transparent, safe, and aligned with human values. I care deeply about designing technology that not only works — but works for everyone.
+I’m driven by a deep curiosity about intelligence, both natural and artificial, and how insights from each domain can elevate and inform the other. My passion lies in building ethical, responsible, and inclusive AI systems that are transparent, safe, and aligned with human values. I care deeply about designing technology that not only works — but works for everyone.
 
 Outside school, I love [dancing](https://www.aalokam.com/dance-production), [boxing](https://hiitthedecknyc.com/), and [eating](https://www.yelp.com/user_details?userid=btQDDDeqgmN2kbrCkJU5yA).
