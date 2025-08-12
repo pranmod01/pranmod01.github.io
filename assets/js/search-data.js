@@ -23,15 +23,37 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-africa-trip",
+        },{id: "post-",
         
-          title: "africa trip",
+          title: "",
         
-        description: "some thoughts post my family&#39;s safari trip in africa",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/africa-trip/";
+            window.location.href = "/blog/2025/2025-08-12-africa-trip/";
+          
+        },
+      },{id: "post-my-travel-thesis",
+        
+          title: "My Travel Thesis",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/travel-thesis/";
+          
+        },
+      },{id: "post-neuromatch-neuroai-reflections",
+        
+          title: "Neuromatch NeuroAI Reflections",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/nm-nai-reflections/";
           
         },
       },{id: "books-the-godfather",
