@@ -23,26 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-",
+        },{id: "post-what-the-wild-taught-us-reflections-from-my-trip-to-africa",
         
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2025-08-12-africa-trip/";
-          
-        },
-      },{id: "post-my-travel-thesis",
-        
-          title: "My Travel Thesis",
+          title: "What the Wild Taught Us - Reflections from My Trip to Africa",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/travel-thesis/";
+            window.location.href = "/blog/2025/africa-trip/";
           
         },
       },{id: "post-neuromatch-neuroai-reflections",
