@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What the Wild Taught Us: Reflections from My Trip to Africa
+title: What the Wild Taught Us - Reflections from My Trip to Africa
 date: 2025-08-12 15:29:16
 description: 
 # tags: formatting links
