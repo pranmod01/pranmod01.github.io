@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-what-the-wild-taught-us-reflections-from-my-trip-to-africa",
+        },{id: "post-the-geography-of-belonging-reflections-on-34-countries-and-counting",
+        
+          title: "The Geography of Belonging - Reflections on 34 Countries and Counting",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/travel-thesis/";
+          
+        },
+      },{id: "post-what-the-wild-taught-us-reflections-from-my-trip-to-africa",
         
           title: "What the Wild Taught Us - Reflections from My Trip to Africa",
         
