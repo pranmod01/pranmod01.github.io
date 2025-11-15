@@ -14,3 +14,9 @@ I'm driven by a deep curiosity about intelligence, both natural and artificial, 
 I like thinking about how biological intelligence can inform safer AI design, particularly through mechanistic interpretability and biologically-inspired architectures. I'm drawn to projects that sit at the intersection of neuroscience and machine learning — whether that's exploring how the brain navigates uncertainty and decision-making, or building AI agents with multiple competing drives that better align with human values. I'm currently working on EEG and eye-tracking research at the [Laboratory for Intelligent Imaging and Neural Computing](https://liinc.bme.columbia.edu/) to understand human decision patterns under risk and ambiguity, and wil explore how these insights might shape more robust and interpretable AI systems.
 
 Outside school, I love [dancing](https://www.aalokam.com/dance-production), [boxing](https://hiitthedecknyc.com/), and [eating](https://www.yelp.com/user_details?userid=btQDDDeqgmN2kbrCkJU5yA).
+
+## Currently Reading
+
+- 1q84, Haruki Murakami
+- The Left Hand of Darkness, Ursula K. Le Guin
+- The Precipice: Existential Risk and the Future of Humanity, Toby Ord
