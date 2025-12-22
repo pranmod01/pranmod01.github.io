@@ -1,60 +1,42 @@
 ---
 title: "Exploring Cortical and Muscular Responses to Voluntary and EMS-Evoked Motion"
-excerpt: "Investigating EEG–EMG signatures of voluntary vs electrically stimulated supinator activation<br/>"
+excerpt: "Analyzing motor cortex activity differences between voluntary movement and electrical muscle stimulation<br/>"
 collection: portfolio
 date: 2025-09-25
-status: "In Progress"
+status: "Completed"
 tags:
   - EEG
-  - EMG
-  - EMS
   - Neuroscience
   - Signal Processing
+  - Motor Cortex
+github: "https://github.com/pranmod01/eeg-ems-compare"
 ---
 
 ## Overview
 
-This project investigates how the brain’s motor cortex responds during **voluntary versus externally-evoked muscle motion**. Using a combined EEG + EMG + EMS setup, we study the **supinator muscle**, which rotates the forearm, to compare cortical and muscular activity across three conditions: voluntary movement, motor imagery, and EMS-triggered motion.  
+Research analyzing brain activity differences between voluntary muscle movement and electrically-stimulated motor activation. The study investigates whether the motor cortex responds distinctly when muscles move by choice versus external electrical stimulation using 4-channel EEG across 5 experimental conditions.
 
-The project is being conducted for **COMS:4995 — Computation and the Brain (Fall 2025)** at Columbia University.
+Conducted for COMS: 6995 — Computation and the Brain (Fall 2025) at Columbia University.
 
-## Motivation
+## Methodology
 
-While EEG–EMG studies and electrical stimulation experiments exist independently, few directly compare cortical signatures of voluntary versus externally-evoked activation in the same muscle. Understanding these differences can inform neuroscience, brain-computer interfaces, and applied rehabilitation systems.
+- **EEG Setup:** 4-channel recording (C3, C4, Cz, CP3) at 200 Hz targeting motor cortex regions
+- **Conditions:** Voluntary left/right movement, motor imagery, EMS, and passive stimulation
+- **Analysis:** Spectral power analysis of mu (8-13 Hz) and beta (13-30 Hz) oscillations using MNE
+- **Stack:** Python, MNE, NumPy, Pandas, Matplotlib, SciPy, Seaborn, interactive web viewer  
 
-## Technical Details
+## Key Results
 
-### Technologies Used
-- **OpenBCI Ganglion Board** — 4-channel EEG recording (C3/C4/Cz/CP3)  
-- **Surface EMG electrodes** — supinator muscle  
-- **Backyard Brains Human-to-Human Interface** — two-channel EMS stimulation  
-- **Python / MNE** — data processing, event-related potentials, time–frequency analysis  
+Motor imagery generated strongest cortical activity (2.68e-10 mu power), while EMS produced minimal response (1.63e-12), suggesting planning-dependent neural signatures. Voluntary movement fell between these extremes, indicating graded motor cortex engagement.
 
-### Methodology
-- Record EEG and EMG signals under voluntary movement, motor imagery, and EMS-induced motion  
-- Synchronize stimulation with recordings for time-locked analysis  
-- Extract **mu (8–13 Hz)** and **beta (13–30 Hz)** band features, readiness potentials, and post-stimulation cortical rebound  
-- Compare anticipatory vs feedback-driven cortical activity patterns  
+## What I Learned
 
-## Current Progress
-
-- Hardware and signal quality verified separately for EEG, EMG, and EMS  
-- Electrode placement and timing synchronization in progress  
-- Pilot data collection planned for next steps  
-
-## What I’m Learning
-
-- Practical EEG and EMG data acquisition and preprocessing  
-- Event-related potential analysis and time–frequency decomposition  
-- Synchronization of external stimulation with neurophysiological recordings  
-
-## Future Work
-
-- Collect and analyze pilot trials  
-- Quantify cortical differences between voluntary, imagined, and EMS-driven motion  
-- Explore implications for corticomuscular coherence and motor control research  
+- Designing and conducting human-subjects neuroscience experiments with proper protocols
+- EEG signal acquisition, preprocessing, and artifact removal techniques using MNE
+- Spectral analysis of oscillatory brain activity in motor control paradigms
+- Comparing voluntary and involuntary motor pathways through cortical activation patterns
+- Building reproducible analysis pipelines with interactive visualization for neuroscience data
 
 ---
 
-**Project Status:** In Progress  
-**Timeline:** September 2025 – December 2025  
+**Status:** Completed | **Timeline:** Sep–Dec 2025  

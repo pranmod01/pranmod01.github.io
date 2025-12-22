@@ -83,13 +83,7 @@ The pipeline consists of five main components:
 - Automate sinkhole detection using correlation networks  
 - Integrate updated benchmarks from Epoch AI and Metaculus  
 
-## Links
-
-- [GitHub Repository](https://github.com/pranmod01/apart-sprint)
-- [Apart Research Sprint](https://apartresearch.com)
-
 ---
 
-**Project Status:** Completed  
-**Timeline:** Novemeber 2025  
+**Status:** Completed | **Timeline:** Nov 2025
 **Collaborators:** Kalpesh Panchal (Ministry of Ontario), Apart Research

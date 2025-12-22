@@ -1,55 +1,58 @@
 ---
 title: "ArXivCode: Bridging Theory and Implementation in AI Research"
-excerpt: "Aligning AI papers and code repositories using fine-tuned LLMs<br/>"
+excerpt: "Semantic code search engine connecting arXiv papers to implementations using CodeBERT embeddings<br/>"
 collection: portfolio
 date: 2025-10-15
-status: "In Progress"
+status: "Completed"
 tags:
-  - LLMs
   - Information Retrieval
+  - CodeBERT
   - Research Tools
-  - Generative AI
-github: "https://github.com/pranmod01/arxivcode"  
+  - Semantic Search
+github: "https://github.com/ArXivCode/ArXivCode"
+demo: "https://arxivcode-frontend-215017069058.us-central1.run.app/"
 ---
 
 ## Overview
 
-**ArXivCode** aims to bridge the gap between AI research papers and their practical implementations by building a dual-model system that retrieves relevant code snippets and explains their connection to theoretical concepts. The project seeks to make research more reproducible, accessible, and actionable.
+A semantic code search engine that bridges the gap between academic research and practical implementation. Users can search theoretical concepts from arXiv papers and instantly retrieve corresponding code implementations with contextual explanations, accelerating the journey from paper to practice.
 
-This project is being developed as part of COMS:6998 — LLM-Based Generative AI Systems (Fall 2025) at Columbia University.
+Developed for COMS:6998 — LLM-Based Generative AI Systems (Fall 2025) at Columbia University.
 
-## Motivation
+## Technical Approach
 
-Theoretical AI research often remains disconnected from real-world implementation. While ArXiv hosts cutting-edge papers and GitHub holds vast repositories of code, connecting the two remains manual and inefficient. ArXivCode aims to close this gap by enabling intelligent retrieval and alignment between papers and their implementations.
-
-## Technical Details
-
-### Technologies Used
-- Python
-- PyTorch
-- Hugging Face Transformers
-- FAISS
-- LangChain
-- FastAPI
-- HTML/CSS/JavaScript (for demo interface)
-
-### Architecture/Approach
-ArXivCode integrates two fine-tuned models:
-- A code understanding model (based on CodeBERT or StarCoder) that learns embeddings for semantic code retrieval.  
-- A paper comprehension model (based on LLaMA or Mistral) that interprets theoretical descriptions and maps them to relevant code.  
-
-A dense retrieval system with cross-encoder re-ranking ensures accurate mapping between paper sections and code snippets.
+- **CodeBERT Embeddings:** 768-dimensional semantic vectors for deep code understanding
+- **Hybrid Retrieval:** Optimized 60/40 weighting of semantic similarity and keyword matching
+- **Dataset:** Curated corpus of 2,490 code snippets extracted from 196 ML/AI research papers
+- **Pipeline:** Custom PDF parsing → code extraction → embedding generation → retrieval ranking
+- **Stack:** Python, Streamlit, CodeBERT (microsoft/codebert-base), Google Cloud Run
 
 ## Key Features
 
-- Paper-to-code retrieval with fine-grained alignment  
-- Natural language queries for theoretical concepts  
-- Explanatory annotations connecting papers and code  
-- Early prototype of web-based demo system  
+- **Semantic Understanding:** Finds implementations even when query terms don't match code literally
+- **Context-Aware Results:** Returns code snippets with paper metadata and explanations
+- **Cross-Paper Discovery:** Identifies similar implementations across different research works
+- **Scalable Architecture:** Cloud-deployed for reliable access and future dataset expansion
 
-More coming soon!
+## Results & Impact
+
+- Successfully deployed production system serving the research community
+- Achieved effective retrieval across diverse ML domains (transformers, CNNs, RL, optimization)
+- Hybrid approach outperformed pure semantic or keyword-only baselines
+- Demonstrates practical application of transformer-based code understanding at scale
+
+## What I Learned
+
+- Implementing semantic search using pre-trained language models specialized for code
+- Balancing semantic embeddings with traditional keyword matching for robust retrieval
+- Architecting end-to-end ML systems from data ingestion through production deployment
+- Extracting and processing code from academic PDFs while preserving context
+- Optimizing retrieval systems for both relevance and interpretability
+
+## Demo
+
+Live at [arxivcode-frontend-215017069058.us-central1.run.app](https://arxivcode-frontend-215017069058.us-central1.run.app/)
 
 ---
 
-**Project Status:** In Progress  
-**Timeline:** September 2025 – December 2025  
+**Status:** Completed | **Timeline:** Sep–Dec 2025

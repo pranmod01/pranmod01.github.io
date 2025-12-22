@@ -44,11 +44,6 @@ We want to examine the following questions:
 - Quantitative approaches to comparing biological and artificial neural representations  
 - Interpreting emergent properties of neural architectures in working memory contexts  
 
-## Links
-
-- [GitHub Repository](https://github.com/pranmod01/perceptrons-neuromatch)
-
 ---
 
-**Project Status:** Completed  
-**Timeline:** July 2024  
+**Status:** Completed | **Timeline:** Jul 2024  
