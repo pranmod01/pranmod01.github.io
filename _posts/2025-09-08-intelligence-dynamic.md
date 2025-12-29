@@ -7,6 +7,8 @@ tags:
   - evolution
   - cognitive science
   - philosophy
+series: alignment-essays
+series_order: 1
 ---
 
 Your brain just performed an extraordinary feat. As your eyes moved across these words, millions of neurons fired in precise patterns, transforming chaotic photons into meaning. But here's what's remarkable. Your visual system didn't just recognize familiar letter shapes. It is simultaneously ready to make sense of fonts you've never seen, handwriting styles that would baffle it, and even words that don't quite look right. This is the fundamental tension that defines intelligence across every domain: the balance between finding useful patterns and breaking free from them when circumstances change.

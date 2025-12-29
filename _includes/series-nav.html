@@ -1,0 +1,160 @@
+{% if page.series %}
+  {% assign series_posts = site.posts | where: "series", page.series | sort: "series_order" %}
+  {% assign series_count = series_posts | size %}
+
+  {% if series_count > 1 %}
+    {% for post in series_posts %}
+      {% if post.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+        {% assign current_order = post.series_order %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if current_index > 0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign prev_post = series_posts[prev_index] %}
+    {% endif %}
+
+    {% assign next_index = current_index | plus: 1 %}
+    {% if next_index < series_count %}
+      {% assign next_post = series_posts[next_index] %}
+    {% endif %}
+
+    <div class="series-navigation">
+      <div class="series-header">
+        {% if page.series == "alignment-essays" %}
+          <p class="series-title">📚 Part {{ current_order }} of {{ series_count }} in <a href="/series/alignment-essays/">Alignment Essays Series</a></p>
+        {% elsif page.series == "caiac" %}
+          <p class="series-title">📚 Week {{ current_order }} of {{ series_count }} in <a href="/series/caiac/">CAIAC Reading Notes</a></p>
+        {% else %}
+          <p class="series-title">📚 Part {{ current_order }} of {{ series_count }} in this series</p>
+        {% endif %}
+      </div>
+
+      <div class="series-links">
+        <div class="prev-post">
+          {% if prev_post %}
+            <a href="{{ prev_post.url }}" class="series-nav-link">
+              <span class="nav-label">← Previous</span>
+              <span class="nav-title">{{ prev_post.title }}</span>
+            </a>
+          {% else %}
+            <span class="series-nav-link disabled">
+              <span class="nav-label">← Previous</span>
+              <span class="nav-title">This is the first post</span>
+            </span>
+          {% endif %}
+        </div>
+
+        <div class="next-post">
+          {% if next_post %}
+            <a href="{{ next_post.url }}" class="series-nav-link">
+              <span class="nav-label">Next →</span>
+              <span class="nav-title">{{ next_post.title }}</span>
+            </a>
+          {% else %}
+            <span class="series-nav-link disabled">
+              <span class="nav-label">Next →</span>
+              <span class="nav-title">This is the last post</span>
+            </span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .series-navigation {
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 1.5em;
+      margin: 2em 0;
+    }
+
+    .series-header {
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .series-title {
+      margin: 0;
+      font-size: 0.95em;
+      color: #555;
+    }
+
+    .series-title a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .series-title a:hover {
+      text-decoration: underline;
+    }
+
+    .series-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1em;
+    }
+
+    @media (max-width: 600px) {
+      .series-links {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .prev-post {
+      text-align: left;
+    }
+
+    .next-post {
+      text-align: right;
+    }
+
+    .series-nav-link {
+      display: block;
+      padding: 0.8em;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .series-nav-link:not(.disabled):hover {
+      border-color: #4CAF50;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .series-nav-link.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .nav-label {
+      display: block;
+      font-size: 0.85em;
+      color: #666;
+      margin-bottom: 0.3em;
+      font-weight: 600;
+    }
+
+    .nav-title {
+      display: block;
+      font-size: 0.9em;
+      color: #333;
+    }
+
+    a.series-nav-link .nav-title {
+      color: #4CAF50;
+    }
+
+    a.series-nav-link:hover .nav-title {
+      color: #45a049;
+    }
+    </style>
+  {% endif %}
+{% endif %}
