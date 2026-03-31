@@ -18,14 +18,6 @@ I'm currently involved in three projects spanning my core interests:
 - **Brain-Computer Interfaces & Decision Neuroscience:** Studying human decision-making under risk and ambiguity using EEG and eye-tracking at Columbia’s Columbia's [Laboratory for Intelligent Imaging and Neural Computing](https://liinc.bme.columbia.edu/), developing pipelines to model behavior from noisy neural signals.
 
 
-- **AI Safety & Alignment:** Investigating robustness, failure modes, and pluralistic approaches to AI alignment in collaboration with [Glen Weyl](https://glenweyl.com/), focusing on how diverse human values can be better represented in AI.
-
 Previously, I spent nearly two years as a Data Scientist at Disney Streaming, building production ML pipelines for causal inference and time-series modeling that affected millions of subscribers. At Berkeley, I conducted research at the Redwood Center for Computational Neuroscience.
 
 Outside school, I love [dancing](https://www.aalokam.com/dance-production), [boxing](https://hiitthedecknyc.com/), and [exploring new cuisines](https://www.yelp.com/user_details?userid=btQDDDeqgmN2kbrCkJU5yA).
-
-## Currently Reading
-
-- 1q84, Haruki Murakami
-- The Left Hand of Darkness, Ursula K. Le Guin
-- The Precipice: Existential Risk and the Future of Humanity, Toby Ord
