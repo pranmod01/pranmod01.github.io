@@ -1,7 +1,7 @@
 ---
 title: "You Don't Believe in Astrology. You Believe in Yourself."
 date: 2026-04-02
-permalink: /posts/2026/04/fbms/
+permalink: /posts/2026/04/spirtuality/
 tags:
   - Spirtuality
   - Anthropology
