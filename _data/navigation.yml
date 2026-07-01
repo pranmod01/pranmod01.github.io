@@ -9,7 +9,7 @@
 
 main:
   - title: "Blog"
-    url: /year-archive/
+    url: https://pranatimodumudi.substack.com/
 
   - title: "Portfolio"
     url: /portfolio/
